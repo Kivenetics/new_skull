@@ -1,0 +1,23 @@
+# Exclude model and DICOM files but keep folder structure
+input/model.pt
+input/DICOM/
+
+# Keep output folder structure but exclude generated files
+output/*.nrrd
+
+# Exclude venv
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+desktop.ini
